@@ -1,0 +1,27 @@
+
+<div class="card" id="card1">
+    <div id="roleid">
+        <label>Role Id</label>
+        <br>
+        <input type="text" placeholder="Enter employeeid" [(ngModel)]="role.roleid" required>
+    </div>
+    <br>
+    <div id="rolename">
+        <label>Rolename</label>
+        <br>
+        <input type="text" placeholder="Enter rolename"  [(ngModel)]="role.rolename" >
+    </div>
+    <br>
+    <div id="description">
+        <label>Description</label>
+        <br>
+        <input type="text" placeholder="Enter description" [(ngModel)]="role.description" required>
+    </div>
+    <br>
+    <div id="but">
+        <input type="button" value="Create Role" (click)="addroles()">
+    </div>
+
+
+</div>
+

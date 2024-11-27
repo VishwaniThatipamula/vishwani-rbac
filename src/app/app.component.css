@@ -1,0 +1,19 @@
+#navbarNav{
+    margin-left: 20px;
+    justify-content: space-between;
+    padding: 10px ;
+}
+
+.navbar-nav{
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar{
+    background-color: green;
+    height: 60px;
+}
+
+.navbar a{
+    color: white;
+}

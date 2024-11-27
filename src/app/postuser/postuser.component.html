@@ -1,0 +1,33 @@
+
+    <div class="card" id="card1">
+        <div id="employeeid">
+            <label>Employee Id</label>
+            <br>
+            <input type="text" placeholder="Enter employeeid" [(ngModel)]="user.employeeid" required>
+        </div>
+        <br>
+        <div id="username">
+            <label>Username</label>
+            <br>
+            <input type="text" placeholder="Enter username"  [(ngModel)]="user.username" >
+        </div>
+        <br>
+        <div id="email">
+            <label>Email</label>
+            <br>
+            <input type="text" placeholder="Enter Email" [(ngModel)]="user.email" required>
+        </div>
+        <br>
+        <div id="desig">
+            <label>Designation</label>
+            <br>
+            <input type="text"  placeholder="Enter designation" [(ngModel)]="user.designation" required>
+        </div>
+        <br>
+        <div id="but">
+            <input type="button" value="Create User" (click)="addusers()">
+        </div>
+    
+    
+    </div>
+    

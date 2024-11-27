@@ -1,0 +1,22 @@
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Role Id</th>
+        <th scope="col">Rolename</th>
+        <th scope="col">Description</th>
+        
+       
+
+      </tr>
+    </thead>
+     <tbody>
+      <tr *ngFor="let rolee of role">
+        <td>{{rolee.roleid}}</td>
+        <td>{{rolee.rolename}}</td>
+        <td>{{rolee.description}}</td>
+        
+       
+    </tbody>
+  </table>
+
